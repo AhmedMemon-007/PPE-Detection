@@ -1,13 +1,12 @@
 # PPE Detection using Computer Vision
 
 This project implements **Personal Protective Equipment (PPE) detection** using computer vision techniques.  
-It leverages a custom dataset sourced from **Roboflow** and trained/tested using Python-based deep learning frameworks.
+It uses a dataset sourced from **Roboflow** and runs the detection pipeline inside a Jupyter Notebook.
 
 ---
 
 ## 📂 Project Files
-- **PPE_detection.ipynb** → Jupyter Notebook containing the full pipeline (data preprocessing, model training, evaluation, and inference).
-- **requirements.txt** (if applicable) → Python dependencies required to run the notebook.
+- **PPE_detection.ipynb** → Jupyter Notebook containing the full workflow (dataset handling, preprocessing, model training, evaluation, and inference).
 - **Dataset** → Downloadable dataset hosted on Google Drive.
 
 Dataset Link (Roboflow export):  
@@ -16,10 +15,10 @@ Dataset Link (Roboflow export):
 ---
 
 ## 🚀 Features
-- Detection of PPE such as helmets, vests, masks, etc.
-- Training and evaluation on a custom-labeled dataset.
-- Inference with bounding boxes for detected equipment.
-- Scalable pipeline for adding new object classes.
+- Loads and preprocesses a PPE dataset from Roboflow.
+- Trains and evaluates a deep learning model for PPE detection.
+- Performs inference on test images with bounding boxes.
+- End-to-end pipeline in a single Jupyter Notebook.
 
 ---
 
